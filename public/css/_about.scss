@@ -1,0 +1,208 @@
+#body {
+	background-color: #D1CFC9;
+}
+
+#aboutH2 {
+	// border: 2px solid;
+	border-radius: 5px;
+	width: 90%;
+	height: 40vw;
+	margin: 60px auto;
+	font-size: 5em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40vw;
+	color: white;
+	background-image: url("https://www.verywellfamily.com/thmb/rejzUWtpg6thIIfre6xxrOAZ4uE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/thoughtful-father-and-son-in-cottage-499550575-5ac1b324c064710037cca424.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	opacity: .7;
+	box-shadow: 6px 5px 3px grey;
+}
+
+#aboutP1 {
+	// border: 2px solid;
+	width: 48%;
+	height: 90%;
+	float: left;
+	padding-left: 25px;
+	// margin-left: 10px auto;
+	font-size: 1.1em;
+}
+
+#roastHistoryContainer {
+	// border: 2px solid;
+	width: 100%;
+	height: 525px;
+	font-size: 1.5em;
+	background-color: rgba(191,169,142,0.9);
+	display: block;
+	opacity: .75;
+}
+
+#aboutImage1 {
+	float: right;
+	width: 48%;
+	height: 280px;
+	display: block;
+}
+
+.aboutImage1 {
+	width: 48%;
+	height: 525px;
+	// border: 2px solid;
+	display: block;
+	float: right;
+	background-image: url("http://blog.fairwaymarket.com/wp-content/uploads/2013/08/coffee-roaster.jpg");
+	background-size: 100% 100%;
+}
+
+#processHead {
+	width: 100%;
+	height: 100px;
+	// border: 1px solid;
+	margin: 50px auto;
+
+}
+
+#processTitle {
+	margin: 0 auto;
+	font-size: 5em;
+	width: 35%;
+	height: 100%;
+	border: 2px solid;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	background-color: rgba(191,169,142,0.9);
+	box-shadow: 6px 5px 3px grey;
+}
+
+
+#processContain {
+	width: 100%;
+	height: 600px;
+	// border: 2px solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+#step1 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	border: 2px solid;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#step1Img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	// border: 1px solid;
+	background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-1-icon.png");
+	background-size: 50% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#step1Story {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	// border: 1px solid;
+	font-size: 1em;
+	text-align: center;
+}
+
+#step2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	border: 2px solid;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#step2Img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	// border: 1px solid;
+	background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-2-icon.png");
+	background-size: 50% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#step2Story {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	// border: 1px solid;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+#step3 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 8;
+	grid-row-end: 10;
+	border: 2px solid;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#step3Img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	// border: 1px solid;
+	background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-3-icon.png");
+	background-size: 50% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#step3Story {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	// border: 1px solid;
+	font-size: 1em;
+	text-align: center;
+}
+
+#step4 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 11;
+	grid-row-end: 13;
+	border: 2px solid;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#step4Img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	// border: 1px solid;
+	background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-4-icon.png");
+	background-size: 50% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#step4Story {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	// border: 1px solid;
+	font-size: 1em;
+	text-align: center;
+}

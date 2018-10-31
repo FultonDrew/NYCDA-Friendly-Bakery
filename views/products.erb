@@ -1,0 +1,117 @@
+<body id='body'>
+<h2 id='productH2'>The beans. Plain and simple.</h2>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src=<%= @c1.url %> style="width:100%">
+    <div class="text"><%= @c1.description %> </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src=<%= @c2.url %> style="width:100%">
+    <div class="text"><%= @c2.description %></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src=<%= @c3.url %> style="width:100%">
+    <div class="text"><%= @c3.description %></div>
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src=<%= @c4.url %> style="width:100%">
+    <div class="text"><%= @c4.description %></div>
+  </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src=<%= @c5.url %> style="width:100%">
+    <div class="text"><%= @c5.description %></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+
+<div id='productP2Box'>
+<p id='productP2'> Since our beginnings, we have focused on roasting the best coffee beans, sourced from local coffee trees to create an exquisite cup of coffee. We have created a full range of roasts, light to dark, to satisfy everyone's palate. We stand by our craftsmanship and guarantee the quality of our product, or half your money back -- GUARANTEED!</p>
+</div>
+
+<div id="productsListing">
+	<div id='product1'>
+		<img id='productImage' src=<%= @c1.roastPic %> ></img>
+		<div id='productPrice'> <%= @c1.price %> </div>
+		<div id='productName'> <%= @c1.productName %> </div>
+		<div id='productDescription'> <%= @c1.description %> </div>
+	</div>
+	<div id='product2'>
+		<img id='productImage' src=<%= @c2.roastPic %>></img>
+		<div id='productPrice'> <%= @c2.price %> </div>
+		<div id='productName'> <%= @c2.productName %></div>
+		<div id='productDescription'> <%= @c2.description %> </div>
+	</div>
+	<div id='product3'>
+		<img id='productImage' src=<%= @c3.roastPic %>></img>
+		<div id='productPrice'> <%= @c3.price %> </div>
+		<div id='productName'> <%= @c3.productName %> </div>
+		<div id='productDescription'> <%= @c3.description %> </div>
+	</div>
+	<div id='product4'>
+		<img id='productImage' src=<%= @c4.roastPic %>></img>
+		<div id='productPrice'> <%= @c4.price %> </div>
+		<div id='productName'> <%= @c4.productName %> </div>
+		<div id='productDescription'> <%= @c4.description %> </div>
+	</div>
+	<div id='product5'>
+		<img id='productImage' src=<%= @c5.roastPic %>></img>
+		<div id='productPrice'> <%= @c5.price %> </div>
+		<div id='productName'> <%= @c5.productName %> </div>
+		<div id='productDescription'> <%= @c5.description %> </div>
+	</div>
+
+</div>
+
+<hr id='line'>
+<div id='coldBrewContainer'>
+	<div id='coldBrewHead'>Cold Brew
+	</div>
+	<div id='coldBrewSub'>Available at all of our Center City Philadlephia locations!
+	</div>
+</div>
+<div id="productsListing">
+	<div id='product1'>
+		<img id='productImage' src=<%= @b1.roastPic %>></img>
+		<div id='productPrice'> <%= @b1.price %> </div>
+		<div id='productName'> <%= @b1.productName %> </div>
+		<div id='productDescription'> <%= @b1.description %> </div>
+	</div>
+	<div id='product2'>
+		<img id='productImage' src=<%= @b2.roastPic %>></img>
+		<div id='productPrice'> <%= @b2.price %> </div>
+		<div id='productName'> <%= @b2.productName %></div>
+		<div id='productDescription'> <%= @b2.description %> </div>
+	</div>
+	<div id='product3'>
+		<img id='productImage' src=<%= @b3.roastPic %>></img>
+		<div id='productPrice'> <%= @b3.price %> </div>
+		<div id='productName'> <%= @b3.productName %> </div>
+		<div id='productDescription'> <%= @b3.description %> </div>
+	</div>
+<!-- <hr id='line'> -->

@@ -1,0 +1,76 @@
+#contactH2 {
+	// border: 2px solid;
+	border-radius: 5px;
+	width: 90%;
+	height: 40vw;
+	margin: 50px auto;
+	font-size: 5em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30vw;
+	color: white;
+	background-image: url("https://jumbotron-production-f.squarecdn.com/assets/4671c0ed1728eb5f705c.jpg");
+	background-size: 98% 100%;
+	background-repeat: no-repeat;
+	opacity: .5;
+}
+
+#contactP1 {
+	margin: 20px auto;
+	height: 100px;
+	width: 90%;
+	// border: 2px solid;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	// background-color: blue;
+
+	// margin-left: 10px auto;
+	font-size: 1.4em;
+}
+
+#form {
+	width: 70%;
+	// border: 1px solid;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#contactUs {
+	margin: 0 auto;
+	margin-bottom: 150px;
+	height: 350px;
+	width: 50%;
+	border: 2px solid;
+	border-radius: 5px;
+	background-color: rgba(191,169,142,0.9);
+}
+
+#inputEmail {
+	width: 30%;
+	height: 30px;
+	margin: 10px auto;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+
+#inputSubject {
+	width: 40%;
+	height: 30px;
+	// border: 1px solid;
+	border-radius: 5px;
+	margin: 30px auto;
+	font-size: 1.2em;
+}
+
+#inputText {
+	width: 98%;
+	height: 170px;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#inputSubmit {
+	width: 99%;
+}

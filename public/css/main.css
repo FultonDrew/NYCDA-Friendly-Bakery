@@ -1,0 +1,688 @@
+@charset "UTF-8";
+#body {
+  background-color: #D1CFC9;
+  margin: 0;
+  padding: 0; }
+
+.home1 {
+  border: 1px solid;
+  width: 100%;
+  height: 600px;
+  background-image: url("//cdn.shopify.com/s/files/1/0056/4562/t/12/assets/homepage_b_hero1.jpg?1407122…");
+  background-size: 100% 100%; }
+
+.home-title {
+  border-radius: 5px;
+  width: 35%;
+  height: 250px;
+  margin: 150px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+  background-color: rgba(153, 108, 98, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+#submitBtn {
+  background-color: lightgrey;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  margin: 20px auto;
+  vertical-align: middle;
+  line-height: 50px; }
+
+#aboutSection {
+  height: 400px;
+  width: 50%;
+  float: left;
+  background-image: url("//cdn.shopify.com/s/files/1/0056/4562/t/12/assets/homepage_b_left1.jpg?1407122…");
+  background-size: 100% 100%;
+  opacity: .75;
+  z-index: -1; }
+
+#aboutBox {
+  border-radius: 5px;
+  width: 70%;
+  margin: 60px auto;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 1.5em;
+  background-color: rgba(153, 108, 98, 0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600i;
+  z-index: 4;
+  opacity: 1; }
+
+#clickHereExplore {
+  position: absolute;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 60px;
+  margin-left: 15%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 1em;
+  background-color: rgba(153, 108, 98, 0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600i; }
+
+#clickHereBeans {
+  position: absolute;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 60px;
+  margin-left: 15%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 1em;
+  background-color: rgba(153, 108, 98, 0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600i; }
+
+#origins {
+  height: 400px;
+  width: 50%;
+  float: right;
+  background-image: url("//cdn.shopify.com/s/files/1/0056/4562/t/12/assets/homepage_b_right1.jpg?1407122…");
+  background-size: 100% 100%;
+  opacity: .75; }
+
+#originsBox {
+  border-radius: 5px;
+  width: 75%;
+  margin: 60px auto;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 1.2em;
+  background-color: rgba(153, 108, 98, 0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600i; }
+
+#clickHere {
+  border-radius: 5px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 1em;
+  background-color: rgba(153, 108, 98, 0.75); }
+
+#product1Home {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3);
+  box-shadow: 2px 2px 2px grey; }
+
+#product2Home {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3);
+  box-shadow: 2px 2px 2px grey; }
+
+#product3Home {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3);
+  box-shadow: 2px 2px 2px grey; }
+
+#product4Home {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3);
+  box-shadow: 2px 2px 2px grey; }
+
+#product5Home {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3);
+  box-shadow: 2px 2px 2px grey; }
+
+#homeProducts {
+  border-radius: 5px;
+  width: 25%;
+  height: 80px;
+  margin-top: 420px;
+  margin-left: 38%;
+  text-align: center;
+  color: white;
+  background-color: rgba(153, 108, 98, 0.2);
+  box-shadow: 2px 2px 2px grey; }
+
+#itemList {
+  border-bottom: 4px solid white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.8em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px; }
+
+#itemList li a {
+  color: white;
+  text-decoration: none; }
+
+#homeHead {
+  margin: 0 auto;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px; }
+
+#login {
+  width: 50%;
+  height: 300px;
+  display: inline-block; }
+
+#footer {
+  border: 2px solid;
+  width: 100%;
+  height: 150px;
+  display: block; }
+
+.navbar {
+  width: 70%;
+  margin: 20px auto;
+  background-color: rgba(191, 169, 142, 0.9);
+  box-shadow: 5px 5px 5px grey;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden; }
+
+.navbar li {
+  display: inline;
+  text-decoration: none;
+  width: 75px;
+  height: 20px;
+  font-size: 1.5em; }
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  margin: 40px;
+  flex-direction: row;
+  justify-content: space-between; }
+
+#body {
+  background-color: #D1CFC9; }
+
+#aboutH2 {
+  border-radius: 5px;
+  width: 90%;
+  height: 40vw;
+  margin: 60px auto;
+  font-size: 5em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40vw;
+  color: white;
+  background-image: url("https://www.verywellfamily.com/thmb/rejzUWtpg6thIIfre6xxrOAZ4uE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/thoughtful-father-and-son-in-cottage-499550575-5ac1b324c064710037cca424.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .7;
+  box-shadow: 6px 5px 3px grey; }
+
+#aboutP1 {
+  width: 48%;
+  height: 90%;
+  float: left;
+  padding-left: 25px;
+  font-size: 1.1em; }
+
+#roastHistoryContainer {
+  width: 100%;
+  height: 525px;
+  font-size: 1.5em;
+  background-color: rgba(191, 169, 142, 0.9);
+  display: block;
+  opacity: .75; }
+
+#aboutImage1 {
+  float: right;
+  width: 48%;
+  height: 280px;
+  display: block; }
+
+.aboutImage1 {
+  width: 48%;
+  height: 525px;
+  display: block;
+  float: right;
+  background-image: url("http://blog.fairwaymarket.com/wp-content/uploads/2013/08/coffee-roaster.jpg");
+  background-size: 100% 100%; }
+
+#processHead {
+  width: 100%;
+  height: 100px;
+  margin: 50px auto; }
+
+#processTitle {
+  margin: 0 auto;
+  font-size: 5em;
+  width: 35%;
+  height: 100%;
+  border: 2px solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  background-color: rgba(191, 169, 142, 0.9);
+  box-shadow: 6px 5px 3px grey; }
+
+#processContain {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+
+#step1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  border: 2px solid;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+#step1Img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-1-icon.png");
+  background-size: 50% 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#step1Story {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-size: 1em;
+  text-align: center; }
+
+#step2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  border: 2px solid;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+#step2Img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-2-icon.png");
+  background-size: 50% 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#step2Story {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px; }
+
+#step3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  border: 2px solid;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+#step3Img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-3-icon.png");
+  background-size: 50% 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#step3Story {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-size: 1em;
+  text-align: center; }
+
+#step4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  grid-row-end: 13;
+  border: 2px solid;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+#step4Img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-image: url("http://120fattofit.com/wp-content/uploads/2017/01/Numbers-4-icon.png");
+  background-size: 50% 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#step4Story {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-size: 1em;
+  text-align: center; }
+
+#contactH2 {
+  border-radius: 5px;
+  width: 90%;
+  height: 40vw;
+  margin: 50px auto;
+  font-size: 5em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30vw;
+  color: white;
+  background-image: url("https://jumbotron-production-f.squarecdn.com/assets/4671c0ed1728eb5f705c.jpg");
+  background-size: 98% 100%;
+  background-repeat: no-repeat;
+  opacity: .5; }
+
+#contactP1 {
+  margin: 20px auto;
+  height: 100px;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 1.4em; }
+
+#form {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%; }
+
+#contactUs {
+  margin: 0 auto;
+  margin-bottom: 150px;
+  height: 350px;
+  width: 50%;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgba(191, 169, 142, 0.9); }
+
+#inputEmail {
+  width: 30%;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 1.2em; }
+
+#inputSubject {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 30px auto;
+  font-size: 1.2em; }
+
+#inputText {
+  width: 98%;
+  height: 170px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 1em; }
+
+#inputSubmit {
+  width: 99%; }
+
+#productH2 {
+  width: 70%;
+  height: 10%;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 5em; }
+
+#productP2Box {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgba(153, 108, 98, 0.4);
+  width: 55%;
+  height: 10vw;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 1.5em;
+  vertical-align: middle; }
+
+#productP2 {
+  border-radius: 5px;
+  width: 70%;
+  height: 8vw;
+  margin: 12px auto;
+  text-align: center;
+  font-size: 1em;
+  vertical-align: middle;
+  line-height: 1.5vw; }
+
+#productsListing {
+  width: 90%;
+  height: 400px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around; }
+
+#product1 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3); }
+
+#product2 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3); }
+
+#product3 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3); }
+
+#product4 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3); }
+
+#product5 {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgba(153, 108, 98, 0.3); }
+
+#productImage {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 20px 0 0 40px;
+  width: 70%;
+  height: 150px;
+  display: relative; }
+
+#productPrice {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px auto;
+  width: 50%;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+  vertical-align: middle;
+  line-height: 30px;
+  background-color: rgba(153, 108, 98, 0.4); }
+
+#productName {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px auto;
+  width: 70%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: rgba(153, 108, 98, 0.4); }
+
+#productDescription {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 70%;
+  height: 80px;
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  vertical-align: middle;
+  line-height: 20px;
+  background-color: rgba(153, 108, 98, 0.4); }
+
+#line {
+  color: black;
+  margin: 90px; }
+
+#coldBrewContainer {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 65%;
+  height: 180px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 0.9em;
+  vertical-align: middle;
+  line-height: 40px;
+  background-color: rgba(153, 108, 98, 0.4); }
+
+#coldBrewHead {
+  margin: 40px auto;
+  font-size: 6em;
+  width: 60%; }
+
+#coldBrewSub {
+  margin: 40px auto;
+  font-size: 1.5em;
+  width: 60%; }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto; }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  background-color: rgba(153, 108, 98, 0.9);
+  margin-left: 2px;
+  font-size: 1.1em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 96.5%;
+  text-align: center; }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */
