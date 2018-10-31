@@ -1,6 +1,6 @@
 
 
-
+//JS for the slideshow on the products page
 var slideIndex = 0;
 showSlides();
 
